@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<!--[if lt IE 9]> <html class="old-ie"> <![endif]--> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Js 19-20</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+</head>
+<body>
+    <!--HEADER-->
+    <header class="header">
+       <div class="overlay">
+        <div class="container">
+            <div class="header__account">
+                <a href="" class="account__link account__link--log">Log in</a>
+                <a href="" class="account__link account__link--sign">Sign up</a>
+            </div>
+            <h2 class="header__subheader">URLAUBSGLÜCK</h2>
+            <div class="clearfix"></div>
+            <h1 class="header__h1">Share your holiday dreams</h1>
+            <h3 class="header__subheader--tiny">And find the perfect partner to fullfill it</h3>
+            <button class="header__button">Find your holiday partner</button>
+        </div>
+        </div>
+    </header>
+    <div class="container">
+        <h2 class="sliders__header">How Urlaubsglück works?</h2>
+        <div class="sliders__item sliders__item--slider1" id="slidr-one">
+            <div data-slidr="one" class="slider-inner__wrapper slider-inner__wrapper--1">
+                <div class="slider__overlay">
+                <button class="slider-inner__button">step 1</button>
+                <h2 class="slider-inner__header">Sed leo enim, condimentum</h2>
+                <p class="slider-inner__paragraph">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+                </div>
+            </div>
+            <div data-slidr="two" class="slider-inner__wrapper slider-inner__wrapper--2">
+                <div class="slider__overlay">
+                    <button class="slider-inner__button">step 2</button>
+                    <h2 class="slider-inner__header">Morbi velit risus</h2>
+                    <p class="slider-inner__paragraph">Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.</p>
+                </div>
+            </div>
+            <div data-slidr="three" class="slider-inner__wrapper slider-inner__wrapper--3">
+                <div class="slider__overlay">
+                    <button class="slider-inner__button">step 3</button>
+                    <h2 class="slider-inner__header">Sed leo enim, condimentum</h2>
+                    <p class="slider-inner__paragraph">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+                </div>
+            </div>
+        </div>
+        <div class="sliders__item sliders__item--slider2" id="slidr-two">
+            <div data-slidr="one" class="slider-inner__wrapper slider-inner__wrapper--1">
+                <div class="slider__overlay">
+                    <button class="slider-inner__button">step 1</button>
+                    <h2 class="slider-inner__header">Sed leo enim, condimentum</h2>
+                    <p class="slider-inner__paragraph">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+                </div>
+            </div>
+            <div data-slidr="two" class="slider-inner__wrapper slider-inner__wrapper--2">
+                <div class="slider__overlay">
+                    <button class="slider-inner__button">step 2</button>
+                    <h2 class="slider-inner__header">Morbi velit risus</h2>
+                    <p class="slider-inner__paragraph">Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.</p>
+                </div>
+            </div>
+            <div data-slidr="three" class="slider-inner__wrapper slider-inner__wrapper--3">
+                <div class="slider__overlay">
+                    <button class="slider-inner__button">step 3</button>
+                    <h2 class="slider-inner__header">Sed leo enim, condimentum</h2>
+                    <p class="slider-inner__paragraph">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+                </div>
+            </div>
+        </div>
+        <div class="sliders__item sliders__item--slider3" id="slidr-three">
+            <div data-slidr="one" class="slider-inner__wrapper slider-inner__wrapper--1">
+                <div class="slider__overlay">
+                    <button class="slider-inner__button">step 1</button>
+                    <h2 class="slider-inner__header">Sed leo enim, condimentum</h2>
+                    <p class="slider-inner__paragraph">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+                </div>
+            </div>
+            <div data-slidr="two" class="slider-inner__wrapper slider-inner__wrapper--2">
+                <div class="slider__overlay">
+                    <button class="slider-inner__button">step 2</button>
+                    <h2 class="slider-inner__header">Morbi velit risus</h2>
+                    <p class="slider-inner__paragraph">Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.</p>
+                </div>
+            </div>
+            <div data-slidr="three" class="slider-inner__wrapper slider-inner__wrapper--3">
+                <div class="slider__overlay">
+                    <button class="slider-inner__button">step 3</button>
+                    <h2 class="slider-inner__header">Sed leo enim, condimentum</h2>
+                    <p class="slider-inner__paragraph">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+       <div class="partner clearfix">
+        <h2 class="partner__header">Meet a partner for your best holiday</h2>
+        <div class="partner__item partner__item--item1">
+            <div class="item__img item__img--item1">
+                <div class="item__img--small item__img--small1"></div>
+            </div>
+            <div class="item__subheader">Bradley Hunter</div>
+            <div class="item__paragraph">Based in Chicago. I love playing tennis and loud music.</div>
+        </div>
+        <div class="partner__item partner__item--item2">
+            <div class="item__img item__img--item2">
+                <div class="item__img--small item__img--small2"></div>
+            </div>
+            <div class="item__subheader">Lucas Marsha</div>
+            <div class="item__paragraph">I get my inspiration from nature and objects around me. I have a passion to colours, typography and skateboards.</div>
+        </div>
+        <div class="partner__item partner__item--item3">
+            <div class="item__img item__img--item3">
+                <div class="item__img--small item__img--small3"></div>
+            </div>
+            <div class="item__subheader">Heather Walker</div>
+            <div class="item__paragraph">I'm a happy person that loves cats and climbing on mountains.</div>
+        </div>
+        <div class="partner__item partner__item--item4">
+            <div class="item__img item__img--item4">
+                <div class="item__img--small item__img--small4"></div>
+            </div>
+            <div class="item__subheader">Bradley Hunter</div>
+            <div class="item__paragraph">Based in Chicago. I love playing tennis and loud music.</div>
+        </div>
+        </div>
+        <button class="partner__button">See other partners</button>
+    </div>
+    <div class="container">
+        <h2 class="masonry__header">Discover holiday activity ideas</h2>
+        <div class="masonry__grid">
+            <div class="grid__item"></div>
+            <div class="grid__item"></div>
+            <div class="grid__item"></div>
+            <div class="grid__item"></div>
+            <div class="grid__item grid__item--size2"></div>
+            <div class="grid__item grid__item--size2"></div>
+            <div class="grid__item"></div>
+        </div>
+        <h2 class="masonry__subheader">Discover holiday activity ideas</h2>
+        <p class="masonry__paragraph">Hi! What are your holiday interests?</p>
+        <input type="text" name="" id="masonry__input" placeholder="Enter your interests">
+        <button class="masonry__button" id="search__img">Search partners</button>
+    </div>
+    <div class="footer__horizontal"></div>
+    <div class="container">
+    <div class="footer">
+        <h2 class="footer__header">URLAUBSGLÜCK</h2>
+        <h4 class="footer__subheader">Company</h4>
+        <ul class="footer__list">
+            <li><a href="" class="footer__link">About</a></li>
+            <li><a href="" class="footer__link">Contacts</a></li>
+            <li><a href="" class="footer__link">Press</a></li>
+            <li><a href="" class="footer__link">Blog</a></li>
+        </ul>
+        <h4 class="footer__subheader">Partners</h4>
+        <p class="footer__design-by">Designed by</p>
+        <div class="footer__logo"></div>
+    </div>
+    </div>
+    <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

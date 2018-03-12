@@ -1,0 +1,206 @@
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+
+At the bottom of this section, we provide information about the spritesheet itself
+$spritesheet: width height image $spritesheet-sprites;
+*/
+$arrow-left-name: 'arrow-left';
+$arrow-left-x: 246px;
+$arrow-left-y: 112px;
+$arrow-left-offset-x: -246px;
+$arrow-left-offset-y: -112px;
+$arrow-left-width: 30px;
+$arrow-left-height: 55px;
+$arrow-left-total-width: 356px;
+$arrow-left-total-height: 244px;
+$arrow-left-image: '../img/sprite/sprite.png';
+$arrow-left: (246px, 112px, -246px, -112px, 30px, 55px, 356px, 244px, '../img/sprite/sprite.png', 'arrow-left', );
+$arrow-right-name: 'arrow-right';
+$arrow-right-x: 278px;
+$arrow-right-y: 112px;
+$arrow-right-offset-x: -278px;
+$arrow-right-offset-y: -112px;
+$arrow-right-width: 30px;
+$arrow-right-height: 55px;
+$arrow-right-total-width: 356px;
+$arrow-right-total-height: 244px;
+$arrow-right-image: '../img/sprite/sprite.png';
+$arrow-right: (278px, 112px, -278px, -112px, 30px, 55px, 356px, 244px, '../img/sprite/sprite.png', 'arrow-right', );
+$footer-logo-name: 'footer-logo';
+$footer-logo-x: 246px;
+$footer-logo-y: 0px;
+$footer-logo-offset-x: -246px;
+$footer-logo-offset-y: 0px;
+$footer-logo-width: 110px;
+$footer-logo-height: 24px;
+$footer-logo-total-width: 356px;
+$footer-logo-total-height: 244px;
+$footer-logo-image: '../img/sprite/sprite.png';
+$footer-logo: (246px, 0px, -246px, 0px, 110px, 24px, 356px, 244px, '../img/sprite/sprite.png', 'footer-logo', );
+$partner1-small-name: 'partner1-small';
+$partner1-small-x: 246px;
+$partner1-small-y: 26px;
+$partner1-small-offset-x: -246px;
+$partner1-small-offset-y: -26px;
+$partner1-small-width: 41px;
+$partner1-small-height: 41px;
+$partner1-small-total-width: 356px;
+$partner1-small-total-height: 244px;
+$partner1-small-image: '../img/sprite/sprite.png';
+$partner1-small: (246px, 26px, -246px, -26px, 41px, 41px, 356px, 244px, '../img/sprite/sprite.png', 'partner1-small', );
+$partner1-name: 'partner1';
+$partner1-x: 123px;
+$partner1-y: 0px;
+$partner1-offset-x: -123px;
+$partner1-offset-y: 0px;
+$partner1-width: 121px;
+$partner1-height: 121px;
+$partner1-total-width: 356px;
+$partner1-total-height: 244px;
+$partner1-image: '../img/sprite/sprite.png';
+$partner1: (123px, 0px, -123px, 0px, 121px, 121px, 356px, 244px, '../img/sprite/sprite.png', 'partner1', );
+$partner2-small-name: 'partner2-small';
+$partner2-small-x: 289px;
+$partner2-small-y: 69px;
+$partner2-small-offset-x: -289px;
+$partner2-small-offset-y: -69px;
+$partner2-small-width: 41px;
+$partner2-small-height: 40px;
+$partner2-small-total-width: 356px;
+$partner2-small-total-height: 244px;
+$partner2-small-image: '../img/sprite/sprite.png';
+$partner2-small: (289px, 69px, -289px, -69px, 41px, 40px, 356px, 244px, '../img/sprite/sprite.png', 'partner2-small', );
+$partner2-name: 'partner2';
+$partner2-x: 123px;
+$partner2-y: 123px;
+$partner2-offset-x: -123px;
+$partner2-offset-y: -123px;
+$partner2-width: 121px;
+$partner2-height: 120px;
+$partner2-total-width: 356px;
+$partner2-total-height: 244px;
+$partner2-image: '../img/sprite/sprite.png';
+$partner2: (123px, 123px, -123px, -123px, 121px, 120px, 356px, 244px, '../img/sprite/sprite.png', 'partner2', );
+$partner3-small-name: 'partner3-small';
+$partner3-small-x: 289px;
+$partner3-small-y: 26px;
+$partner3-small-offset-x: -289px;
+$partner3-small-offset-y: -26px;
+$partner3-small-width: 41px;
+$partner3-small-height: 41px;
+$partner3-small-total-width: 356px;
+$partner3-small-total-height: 244px;
+$partner3-small-image: '../img/sprite/sprite.png';
+$partner3-small: (289px, 26px, -289px, -26px, 41px, 41px, 356px, 244px, '../img/sprite/sprite.png', 'partner3-small', );
+$partner3-name: 'partner3';
+$partner3-x: 0px;
+$partner3-y: 123px;
+$partner3-offset-x: 0px;
+$partner3-offset-y: -123px;
+$partner3-width: 121px;
+$partner3-height: 121px;
+$partner3-total-width: 356px;
+$partner3-total-height: 244px;
+$partner3-image: '../img/sprite/sprite.png';
+$partner3: (0px, 123px, 0px, -123px, 121px, 121px, 356px, 244px, '../img/sprite/sprite.png', 'partner3', );
+$partner4-small-name: 'partner4-small';
+$partner4-small-x: 246px;
+$partner4-small-y: 69px;
+$partner4-small-offset-x: -246px;
+$partner4-small-offset-y: -69px;
+$partner4-small-width: 41px;
+$partner4-small-height: 41px;
+$partner4-small-total-width: 356px;
+$partner4-small-total-height: 244px;
+$partner4-small-image: '../img/sprite/sprite.png';
+$partner4-small: (246px, 69px, -246px, -69px, 41px, 41px, 356px, 244px, '../img/sprite/sprite.png', 'partner4-small', );
+$partner4-name: 'partner4';
+$partner4-x: 0px;
+$partner4-y: 0px;
+$partner4-offset-x: 0px;
+$partner4-offset-y: 0px;
+$partner4-width: 121px;
+$partner4-height: 121px;
+$partner4-total-width: 356px;
+$partner4-total-height: 244px;
+$partner4-image: '../img/sprite/sprite.png';
+$partner4: (0px, 0px, 0px, 0px, 121px, 121px, 356px, 244px, '../img/sprite/sprite.png', 'partner4', );
+$spritesheet-width: 356px;
+$spritesheet-height: 244px;
+$spritesheet-image: '../img/sprite/sprite.png';
+$spritesheet-sprites: ($arrow-left, $arrow-right, $footer-logo, $partner1-small, $partner1, $partner2-small, $partner2, $partner3-small, $partner3, $partner4-small, $partner4, );
+$spritesheet: (356px, 244px, '../img/sprite/sprite.png', $spritesheet-sprites, );
+
+/*
+The provided mixins are intended to be used with the array-like variables
+
+.icon-home {
+  @include sprite-width($icon-home);
+}
+
+.icon-email {
+  @include sprite($icon-email);
+}
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+/*
+The `sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of SCSS
+
+@include sprites($spritesheet-sprites);
+*/
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

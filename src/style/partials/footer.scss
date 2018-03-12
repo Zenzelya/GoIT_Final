@@ -1,0 +1,112 @@
+@import "app";
+@import "sprite";
+
+.footer {
+    position: relative;
+}
+.footer__horizontal {
+	height: 4px;
+    width: 100%;
+    margin-top: 40px;
+    background-color: #ff4e50;
+    @include respond-to(tablet) {
+        margin-top: 100px;
+    }
+}
+.footer__header {
+	margin-top: 16px;
+    margin-bottom: 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ff4e50;
+    font: 700 16px Montserrat;
+    letter-spacing: 1px;
+    @include respond-to(tablet) {
+        display: inline-block;
+        margin-top: 36px;
+        margin-left: 40px;
+    }
+    @include respond-to(desktop) {
+        margin-left: 0px;
+    }
+}
+.footer__subheader {
+    margin-bottom: 0;
+    margin-top: 13px;
+    color: #333333;
+    font: 700 14px Montserrat;
+    text-align: center;
+    @include respond-to(tablet) {
+        display: inline-block;
+        margin-top: 36px;
+        margin-left: 76px;
+        margin-right: 16px;
+        width: 69px;
+    }
+    @include respond-to(desktop) {
+        margin-left: 91px;
+        margin-right: -8px;
+    }
+}
+.footer__list {
+	height: 14px;
+    padding: 0;
+    list-style: none;
+    width: 200px;
+    margin: 0 auto;
+    @include respond-to(tablet) {
+        position: absolute;
+        display: inline-block;
+        width: 68px;
+        height: 86px;
+        left: 265px;
+        top: 63px;
+        margin-bottom: 41px;
+    }
+    @include desktop {
+        left: 239px;
+    }
+    li {
+        display: inline-block;
+        @include respond-to(tablet) {
+            display: block;
+        }
+    }
+}
+.footer__link {
+	color: #666666;
+    font: 300 14px / 24px Roboto;
+    text-decoration: none;
+    padding-rigth: 10px;
+    @include pointer;
+}
+.footer__design-by {
+    margin-top: 15px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    color: #cccccc;
+    font: 700 10px Montserrat;
+    text-align: center;
+    @include respond-to(tablet) {
+        display: inline-block;
+        float: right;
+        margin: 39px 40px 0 40px;
+    }
+    @include respond-to(desktop) {
+        margin-left: 350px;
+        margin-right: 0;
+        margin-top: 38px;
+    }
+}
+.footer__logo {
+    margin: 10px auto 18px auto;
+    @include sprite ($footer-logo);
+    @include respond-to(tablet) {
+        display: inline-block;
+        float: right;
+        margin: 3px 40px 0 0;
+    }
+    @include desktop {
+        margin-right: -3px;
+    }
+}

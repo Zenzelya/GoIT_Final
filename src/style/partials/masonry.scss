@@ -1,0 +1,128 @@
+@import "app";
+
+.masonry__header {
+	text-align: center;
+    color: #333333;
+    font: 700 22px Montserrat;
+    margin-top: 33px;
+    margin-bottom: 0;
+    @include respond-to(tablet) {
+        margin-top: 96px;
+    }
+}
+.masonry__subheader {
+    text-align: center;
+    color: #333333;
+    font: 700 22px Montserrat;
+    margin-bottom: 0;
+}
+.masonry__grid {
+    margin-top: 11px;
+    margin-bottom: 20px;
+    @include respond-to(tablet) {
+        margin-top: 24px;
+        margin-bottom: 81px;
+    }
+    @include desktop {
+        margin-top: 36px;
+        margin-bottom: 106px;
+    }
+}
+.grid__item {
+    box-sizing: border-box;
+    width: 300px;
+    margin: 0 9px 10px 9px;
+    height: 121px;
+    background-color: #eee;
+    border-radius: 3px;
+    @include respond-to(tablet) {
+        width: 236px;
+        height: 311px;
+        margin: 10px;
+    }
+    @include desktop {
+        width: 300px;
+        height: 310px;
+        margin: 0 5px 10px 5px;
+    }
+}
+.grid__item--size2 {
+    @include respond-to(tablet) {
+        width: 492px;
+    }
+    @include desktop {
+        width: 610px;
+    }
+}
+.grid__paragraph {
+    width: 75%;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    color: #ffffff;
+    font: 700 22px Montserrat;
+    line-height: 100%;
+    text-transform: capitalize;
+    @include respond-to(tablet) {
+        width: 90%;
+    }
+    @include desktop {
+        width: 70%;
+    }
+}
+.masonry__paragraph {
+	text-align: center;
+    color: #333333;
+    font: 300 18px Roboto;
+    margin-top: 10px;
+    margin-bottom: 0;
+    @include respond-to(tablet) {
+        margin-top: 35px;
+    }
+}
+#masonry__input {
+	display: block;
+    box-sizing: border-box;
+    height: 40px;
+    width: 280px;
+    padding-left: 16px;
+    border-radius: 4px;
+    border: 1px solid #eee;
+    margin:16px auto 10px auto;
+    box-shadow: 0px 1px 0px 0.00px #eeeeee;
+    color: #999999;
+    font: 300 14px Roboto;
+    @include respond-to(tablet) {
+        display: inline-block;
+        margin: 34px 10px 0 178px;
+        width: 240px;
+    }
+    @include desktop {
+        margin-left: 264px;
+    }
+}
+.masonry__button {
+	display: block;
+    height: 40px;
+    width: 280px;
+    background-color: #ff4e50;
+    border-radius: 20px;
+    border: 0;
+    margin: 0 auto;
+    color: #ffffff;
+    font: 700 14px Montserrat;
+    @include pointer;
+    @include respond-to(tablet) {
+        width: 160px;
+        display: inline-block;
+        margin: 34px 0 0 0 ;
+    }
+}
+
+
+

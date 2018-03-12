@@ -1,0 +1,108 @@
+@import "app";
+
+.header {
+	width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 540px;
+    background: url(../img/background/header.jpeg);
+    background-position: center 0;
+    background-size: cover;
+    @include respond-to(tablet) {
+        height: 700px;
+    }
+}
+.header__account {
+	width: 185px;
+    height: 36px;
+    padding-top: 20px;
+    margin: 0 auto;
+    @include respond-to(tablet) {
+        display: inline-block;
+        float: right;
+        padding-top: 38px;
+        margin-right: 50px;
+    }
+    @include desktop {
+        margin-right: 0;
+    }
+}
+.account__link {
+    display: inline-block;
+    width: 76px;
+    margin-left: 1px;
+    text-decoration: none;
+    color: #ffffff;
+    font: 700 14px Montserrat;
+    line-height: 32px;
+    text-align: center;
+    @include pointer;
+}
+.account__link--sign {
+    border: 2px solid #fff;
+    border-radius: 20px;
+    @include desktop {
+        margin-left: 2px;
+    }
+}
+.header__subheader {
+	margin-top: 115px;
+    text-align: center;
+    color: #ffffff;
+    font: 700 20px Montserrat;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    @include respond-to(tablet) {
+        display: inline-block;
+        float: left;
+        margin: 0;
+        padding-top: 46px;
+        margin-left: 49px;
+    }
+    @include desktop {
+        margin-left: 0;
+    }
+}
+.header__h1 {
+    margin-top: 27px;
+    margin-bottom: 0;
+	text-align: center;
+    color: #ffffff;
+    font: 700 30.01px Montserrat;
+    text-transform: uppercase;
+    @include respond-to(tablet) {
+        margin: 139px auto 0 auto;
+        width: 487px;
+        font-size: 52px;
+    }
+}
+.header__subheader--tiny {
+    width: 276px;
+    color: #ffffff;
+    font: 300 18.01px Roboto;
+    text-align: center;
+    margin: 7px auto;
+    @include respond-to(tablet) {
+        width: 400px;
+        margin: 25px auto 0 auto;
+        color: #ffffff;
+        font-size: 24px;
+    }
+}
+.header__button {
+    display: block;
+	width: 280px;
+    height: 40px;
+    margin: 17px auto;
+    color: #ffffff;
+    font: 700 14px Montserrat;
+    text-align: center;
+    background-color: #ff4e50;
+    border-radius: 20px;
+    border: 0;
+    @include pointer;
+    @include respond-to(tablet) {
+        width: 226px;
+        margin-top: 34px;
+    }
+}

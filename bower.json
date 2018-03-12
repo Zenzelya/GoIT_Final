@@ -1,0 +1,22 @@
+{
+  "name": "GoIT_Final",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Kelhankin A <avkelhunkin@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/SviatoslavK/GoIT_Final",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "normalize.css#^5.0.0",
+    "slidr": "^0.5.0",
+    "masonry": "3.3.2"
+  }
+}

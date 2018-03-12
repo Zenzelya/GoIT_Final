@@ -1,0 +1,23 @@
+// сделал такой миксин
+@mixin background {
+    background: {
+        position: center center;
+        size: cover;
+    }
+}
+
+// теперь можно писать так
+
+.some_class {
+    background: url(some-img.png);
+    @include background;
+}
+
+// вместо
+
+.some_class {
+    background: url(some-img.png);
+    background-size: cover;
+    background-position: center center;
+}
+
